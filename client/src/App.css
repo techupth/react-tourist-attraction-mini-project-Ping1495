@@ -36,11 +36,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.blogPost {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .tourBox {
   display: flex;
@@ -52,11 +47,25 @@ hr {
   padding: 15px;
   margin: 50px;
   margin-left: 120px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .photoOne {
   flex: 1;
   margin: 20px;
+  border-radius: 10px;
+  width: 300px; /* กำหนดความกว้างของรูปภาพ */
+  height: 200px;
+}
+
+.photoTwo {
+  flex: 1;
+  margin: 10px;
+  margin-left: 20px;
+  width: 150px; /* กำหนดความกว้างของรูปภาพ */
+  height: 150px;
+  border-radius: 10px;
 }
 
 right-layer {
